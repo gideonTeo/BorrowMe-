@@ -1,0 +1,40 @@
+<!--
+Author: Nick Sum, Zhi Kai Teo, Joeseph Ti
+Date Created: 7 April 2019
+-->
+<html>
+<head>
+    
+<link rel="stylesheet" type="text/css" href="Login_Page.css">
+
+</head>
+<body>
+    <div class="block">
+        <h1 id ="title">BorrowMe+</h1>
+    </div>
+    
+    <div class="block ">
+        <img id ="loginImage" src="image/Login_Symbol.png">
+    </div>
+    
+ 
+    <div class="block">
+        <p id="loginDetail">Email:<input type="text" name="email" id="loginDetail"></p>
+        
+        <p id="loginDetail">Password:<input type="text" name="password" id="loginDetail"></p>
+        
+    </div>
+    
+    <div class="buttonBlock">
+        <button class="mdl-button mdl-js-button mdl-button--raised buttonSpace" id ="student" onclick="student_key();">
+            <a href="index.html">Sign Me As A Student</a><br>
+        </button>
+        
+        <button class="mdl-button mdl-js-button mdl-button--raised buttonSpace" id="staff" onclick="staff_key();">
+            <a href ="Staff_Page.html">Sign Me As A Staff</a>
+        </button>
+        
+    </div>
+<script src="Login_Page.js"></script>
+</body>
+</html>

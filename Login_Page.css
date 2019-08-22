@@ -1,0 +1,66 @@
+/** 
+Author: Nick Sum, Zhi Kai Teo, Joeseph Ti
+Date Created: 7 April 2019
+*/
+body {
+  background-color: #3366FF;
+}
+
+#title{
+    color:white;
+    font-style:roboto;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+}
+
+.block{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  top:40px;
+}
+
+#loginImage{
+  top: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loginDetail{
+  top: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-style:roboto;
+  font-weight:bold;
+  color:white;
+}
+
+.buttonBlock{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.buttonSpace {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+a{
+    text-decoration:none;
+    text-decoration-color: none;
+}
+
+a:visited{
+    color: black;
+}
+
+button{
+    padding:10px;
+    font-size:14px;
+}
